@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from notification-emails.com/transactional-email-templates/documentation/shopify by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Jun 2018 12:20:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <title>Stunner - Shopify Responsive Email Templates</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v7.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="A set of powerful HTML templates designed for store owners and app makers who deal with Shopify email communications. Easy setup, awesome results."/>
+<link rel="canonical" href="shopify.html" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Person","url":"http:\/\/notification-emails.com\/","sameAs":["https:\/\/www.facebook.com\/NotificationEmails\/","shopify.html\/\/www.instagram.com\/ionutoroian\/","shopify.html\/\/www.linkedin.com\/in\/ionutoroian\/","shopify.html\/\/youtube.com\/ionutoroian","https:\/\/twitter.com\/ionutoroian"],"@id":"#person","name":"Ionut Oroian"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='http://maxcdn.bootstrapcdn.com/' />
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel='stylesheet' id='bscss-css'  href='maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='style0cd6.css?ver=302' type='text/css' media='all' />
+<link rel='stylesheet' id='material-css'  href='https://fonts.googleapis.com/icon?family=Material+Icons' type='text/css' media='all' />
+<script type='text/javascript' src='jqueryb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='jquery-migrate.min330a.js?ver=1.4.1'></script>
+</head>
+
+<body class="page-template page-template-page-commerce_preview page-template-page-commerce_preview-php page page-id-482 page-child parent-pageid-466 page-solutions page-commerce">
+<div id="page" class="site">
+
+
+	<div class="container container_doc">
+	<div class="jumbotron jumbotron_alt jumbotron-sm doc-content bg-faded">
+	<div class="page_content doc-content">
+		<h2>Tutorial how to customize your Shopify templates</h2>
+<p class="lead text-muted">Stunner is a set of powerful HTML templates designed for store owners and app makers who deal with Shopify email communications.</p>
+<p>These templates are compatible with 60+ email clients and devices, Popular clients include: Apple iPhone, Gmail, Apple iPad, Apple Mail, Outlook, Samsung Mail, Google Android and Yahoo! Mail and Windows Live Mail and more!</p>
+<p>&nbsp;</p>
+<h3>What&#8217;s included</h3>
+<p class="text-muted">Default Shopify emails for Order, Shipping, Customer and Templates.</p>
+<div class="row">
+<div class="col-md-6">
+<ul style="margin-bottom: 0;">
+<li>images folder</li>
+<li>01 Order confirmation.txt</li>
+<li>02 Order canceled.txt</li>
+<li>03 Order refund.txt</li>
+<li>04 Draft order invoice.txt</li>
+<li>05 Buy online for Shopify POS.txt</li>
+<li>06 Abandoned checkout.txt</li>
+<li>07 POS and mobile receipt.txt</li>
+<li>08 Gift card created.txt</li>
+<li>09 Fulfillment request.txt</li>
+</ul>
+</div>
+<div class="col-md-6">
+<ul style="margin-bottom: 0;">
+<li>10 Shipping confirmation.txt</li>
+<li>11 Shipping update.txt</li>
+<li>12 Shipment out for delivery.txt</li>
+<li>13 Shipment delivered.txt</li>
+<li>14 Customer account invite.txt</li>
+<li>15 Customer account welcome.txt</li>
+<li>16 Customer account password reset.txt</li>
+<li>17 Contact customer.txt</li>
+<li>18 New order.txt</li>
+</ul>
+</div>
+</div>
+<p>&nbsp;</p>
+<h3 class="pt-5">How to Install</h3>
+<p class="text-muted">To install the email templates you&#8217;ll need access to <strong>Files</strong> and <strong>Notifications</strong> in your store&#8217; <strong>Settings</strong>.</p>
+<p>Go to your stores admin to get starterd, then click <code>Settings &gt; Files</code>. Click <code>Upload files</code> and select all the files from the <code>images</code> folder.</p>
+<p>Next you will need to upload all email-related images to your store. To do this go to your store’s admin, then <code>Settings &gt; Files</code> and click <code>Upload files</code>. Select all the files from images folder. Once the upload is done head over to <code>Notifications</code> (Settings menu).</p>
+<p>The <code>Notifications</code> section has a complete list of emails your store sends out (Order, Shipping, Customer and Templates). We’ll overwrite the default emails with our custom code.</p>
+<p>Selecting one of the notifications from the list. Next, replace the content of the <code>Email body (HTML)</code> field with the content of the corresponding <code>.txt</code> file (e.g. Order Confirmation &gt; 01_order_confirmation.txt). Hit <code>Save</code> once you are done.</p>
+<p>Repeat the process for all the email notifications you want to update.</p>
+<p class="lead py-4 my-2"><span class="badge badge-success">#protip</span> Use the <code>Revert to default</code> at the end of the edit page to restore your email to their default state.</p>
+<p>Click the <code>Customize</code> button from the <code>Notifications</code> page to update the Accent color or add a image-based logo (maximum width 200px).</p>
+<h3 class="pt-5">Extra Layout Options</h3>
+<p class="text-muted">You can add extra information to the email footer.</p>
+<p>You can find the information options at the start of every .txt file, e.g. Order Confirmation.</p>
+<pre>{% capture email_title %}Thank you for your purchase! {% endcapture %}
+{% capture email_body %}
+  {% if requires_shipping %}
+    Hi {{ customer.first_name }}, we're getting your order ready to be shipped. We will notify you when it has been sent.
+  {% endif %}
+{% endcapture %}
+
+{% assign facebook_href   = "" %}
+{% assign instagram_href  = "" %}
+{% assign twitter_href    = "" %}
+{% assign pinterest_href  = "" %}
+{% assign store_address   = "" %}
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+...</pre>
+<p class="text-muted"><small>Example of information options for the material theme.</small></p>
+<p>Add extra information to the email footer by adding your social links to the footer icon variables or add the store address ( store_address = &#8220;Store Address&#8221; ).</p>
+<p><strong>facebook_href</strong> adds Facebook icon<br />
+<strong>instagram_href</strong> add Instagram icon<br />
+<strong>twitter_href</strong> add Twitter icon<br />
+<strong>pinterest_href</strong> add Pinterest icon<br />
+<strong>store_address</strong> adds store address<br />
+<strong>tracking_url</strong> custom shipping tracking URL | <small>this option is only available in Fulfillment request theme (09 Fulfillment request.txt)</small><br /></p>
+<p>After Add extra information, e.g. Order Confirmation.</p>
+
+<pre>
+{% assign facebook_href   = "https://www.facebook.com/example" %}
+{% assign instagram_href  = "https://www.instagram.com/example" %}
+{% assign twitter_href    = "https://www.twitter.com/example" %}
+{% assign pinterest_href  = "https://www.pinterest.com/example" %}
+{% assign store_address   = "10019, West 55th Street, New York, NY" %}
+</pre>
+
+	</div><!-- /.content -->
+</div>
+
+
+</div><!-- #page -->
+<script type='text/javascript' src='cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js'></script>
+<script type='text/javascript' src='maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='inite5f2.js?ver=300'></script>
+</body>
+
+<!-- Mirrored from notification-emails.com/transactional-email-templates/documentation/shopify by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Jun 2018 12:20:55 GMT -->
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 0/397 objects using disk
+Page Caching using disk: enhanced 
+Minified using disk
+Database Caching 1/23 queries in 0.073 seconds using disk
+
+Served from: notification-emails.com @ 2018-06-02 14:11:24 by W3 Total Cache
+-->
